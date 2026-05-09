@@ -1,0 +1,30 @@
+# Python 缓存与编译产物
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 本地环境变量
+.env
+
+# IDE 配置
+.idea/
+
+# 日志与运行产物
+logs/
+*.log
+
+# 向量库与本地存储
+storage/
+rag/chroma_db/
+agent/tools/chroma_db/
+*.sqlite3
+md5.txt
+
+# 本地聊天记录
+chat_history/
+rag/chat_history/
